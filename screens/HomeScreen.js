@@ -7,13 +7,13 @@ const HomeScreen = ({ navigation }) => {
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Screen</Text>
       <Button
-      title='เกี่ยวกับเรา'
-      onPress={() => navigation.navigate('About', {
-      email: 'reactnative.tni.ac.th'
-      })}
-    />
+        title='เกี่ยวกับเรา'
+        onPress={() => navigation.navigate('About', {
+          email: 'reactnative.tni.ac.th'
+        })}
+      />
     </View>
   )
-  }
+}
 
 export default HomeScreen
